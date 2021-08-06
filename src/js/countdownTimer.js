@@ -16,33 +16,19 @@ refs.inputMonth.addEventListener('change', writesTheEnteredMonth);
 refs.inputYear.addEventListener('change', writesTheEnteredYear);
 
 function writesTheEnteredDay() {
-  const inputDay = refs.inputDay.value;
+  return refs.inputDay.value;
   //console.log(inputDay);
-  return inputDay;
 }
 
 function writesTheEnteredMonth() {
-  const inputMonth = refs.inputMonth.value;
+  return refs.inputMonth.value;
   //console.log(inputMonth);
-  return inputMonth;
 }
 
 function writesTheEnteredYear() {
-  const inputYear = refs.inputYear.value;
+  return refs.inputYear.value;
   //console.log(inputYear);
-  return inputYear;
 }
-
-// function data() {
-//   writesTheEnteredDay();
-//   writesTheEnteredMonth();
-//   writesTheEnteredYear();
-
-//   console.log();
-// }
-//let targetDate = `${inputMonth} ${inputDay}, ${inputYear}`;
-
-//console.log(targetDate);
 
 /* Добавление элементам свойства "ID" */
 refs.days.id = 'days';
