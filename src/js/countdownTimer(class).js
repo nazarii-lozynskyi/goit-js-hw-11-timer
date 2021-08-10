@@ -75,7 +75,7 @@ function updateClockFace({ days, hours, mins, secs }) {
 
 const countdown = new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Sep 1, 2022'),
+  targetDate: new Date('June 14, 2022'),
   onTick: updateClockFace,
 });
 
